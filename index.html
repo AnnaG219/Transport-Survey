@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Transportation Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form-survey" action="index.html" method="post">
+        <div class="form-group">
+          <p>In the past year what modes of transportation have you used to travel. Please select all that apply:</p>
+          <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
+          <input type="checkbox" name="work-transportation" value="car"> Driving a car.<br>
+          <input type="checkbox" name="work-transportation" value="carpool"> Carpool with others.<br>
+          <input type="checkbox" name="work-transportation" value="walk"> Walking.<br>
+          <input type="checkbox" name="work-transportation" value="bus"> Riding the bus.<br>
+          <input type="checkbox" name="work-transportation" value="train"> Taking the train.<br>
+          <input type="checkbox" name="work-transportation" value="streetcar"> Riding a streetcar.<br>
+          <input type="checkbox" name="work-transportation" value="taxi"> Taking a taxi.<br>
+          <input type="checkbox" name="work-transportation" value="rideshare"> Taking an Uber/Lyft.<br>
+          <input type="checkbox" name="work-transportation" value="skateboard"> Skateboarding.<br>
+          <input type="checkbox" name="work-transportation" value="rollerblades"> Rollerblading.<br>
+          <input type="checkbox" name="work-transportation" value="scooter"> Riding a scooter.<br>
+          <input type="checkbox" name="work-transportation" value="other"> Other.<br>
+
+          <button type="submit" id="submitButton" class="btn btn-dark" name="button">Submit</button>
+        </div>
+      </form>
+      <div id="surveyResults">
+        <p class="font-weight-bold">You use these methods of transportation:</p>
+      </div>
+    </div>
+  </body>
+</html>
